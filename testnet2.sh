@@ -37,16 +37,16 @@ cd bin
 sleep 5s
 ./evmosd config keyring-backend test
 ./evmosd config chain-id genesis_1000-1
-./evmosd keys add nodeonekey --keyring-backend test --algo eth_secp256k1
-./evmosd init nodeone --chain-id genesis_1000-1
+./evmosd keys add $1 --keyring-backend test --algo eth_secp256k1
+./evmosd init $2 --chain-id genesis_1000-1
 cat $HOME/.evmosd/config/genesis.json | jq '.app_state["staking"]["params"]["bond_denom"]="aphoton"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 cat $HOME/.evmosd/config/genesis.json | jq '.app_state["crisis"]["constant_fee"]["denom"]="aphoton"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 cat $HOME/.evmosd/config/genesis.json | jq '.app_state["gov"]["deposit_params"]["min_deposit"][0]["denom"]="aphoton"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 cat $HOME/.evmosd/config/genesis.json | jq '.app_state["mint"]["params"]["mint_denom"]="aphoton"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 cat $HOME/.evmosd/config/genesis.json | jq '.consensus_params["block"]["max_gas"]="100000000"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 
-./evmosd add-genesis-account nodeonekey 21000000000000000000000000aphoton --keyring-backend test
-./evmosd gentx nodeonekey 1000000000000000000aphoton --keyring-backend test --chain-id genesis_1000-1
+./evmosd add-genesis-account $1 21000000000000000000000000aphoton --keyring-backend test
+./evmosd gentx $1 1000000000000000000aphoton --keyring-backend test --chain-id genesis_1000-1
 ./evmosd collect-gentxs
 ./evmosd validate-genesis
 echo Starting your Genesis L1 localtestnnet validator! 
