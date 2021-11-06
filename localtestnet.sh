@@ -45,7 +45,7 @@ cat $HOME/.evmosd/config/genesis.json | jq '.app_state["gov"]["deposit_params"][
 cat $HOME/.evmosd/config/genesis.json | jq '.app_state["mint"]["params"]["mint_denom"]="aphoton"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 cat $HOME/.evmosd/config/genesis.json | jq '.consensus_params["block"]["max_gas"]="100000000"' > $HOME/.evmosd/config/tmp_genesis.json && mv $HOME/.evmosd/config/tmp_genesis.json $HOME/.evmosd/config/genesis.json
 
-./evmosd add-genesis-account mygenesiskey 21000000000000000000000000aphoton --keyring-backend test
+./evmosd add-genesis-account nodeonekey 21000000000000000000000000aphoton --keyring-backend test
 ./evmosd gentx nodeonekey 1000000000000000000aphoton --keyring-backend test --chain-id genesis_1000-1
 ./evmosd collect-gentxs
 ./evmosd validate-genesis
