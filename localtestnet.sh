@@ -51,4 +51,4 @@ cat $HOME/.evmosd/config/genesis.json | jq '.consensus_params["block"]["max_gas"
 ./evmosd validate-genesis
 echo Starting your Genesis L1 localtestnnet validator! 
 sleep 5s
-./evmosd start --pruning=nothing --trace --log_level info --minimum-gas-prices=1aphoton --json-rpc.api eth,txpool,personal,net,debug,web3,miner
+./evmosd start --pruning=nothing --trace --log_level info --minimum-gas-prices=100000000aphoton --json-rpc.api eth,txpool,personal,net,debug,web3,miner
