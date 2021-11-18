@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-11-18T01:33:10.558732661Z",
+  "genesis_time": "2021-11-18T02:00:16.338741034Z",
   "chain_id": "genesis_26-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "genesis1y3c9w0er7y3fsnzek0zlvjqgfnr56zwrjvvgxx",
+            "address": "genesis1nkafzj3arpgyw4tynpk8zj79zx0mj6tk83z0q7",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,7 +53,7 @@
       },
       "balances": [
         {
-          "address": "genesis1y3c9w0er7y3fsnzek0zlvjqgfnr56zwrjvvgxx",
+          "address": "genesis1nkafzj3arpgyw4tynpk8zj79zx0mj6tk83z0q7",
           "coins": [
             {
               "denom": "aphoton",
@@ -161,11 +161,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "genesis1y3c9w0er7y3fsnzek0zlvjqgfnr56zwrjvvgxx",
-                "validator_address": "genesisvaloper1y3c9w0er7y3fsnzek0zlvjqgfnr56zwrk5x5pq",
+                "delegator_address": "genesis1nkafzj3arpgyw4tynpk8zj79zx0mj6tk83z0q7",
+                "validator_address": "genesisvaloper1nkafzj3arpgyw4tynpk8zj79zx0mj6tkrfgn8c",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "/66mhTWedEczgLw5/4eCPhWRacjtHceeGNxw8PZZNEw="
+                  "key": "Z4y6dgE2z+YZP/di7fYiY2RSJ46/VinVMTXnUOl0EJw="
                 },
                 "value": {
                   "denom": "aphoton",
@@ -173,7 +173,7 @@
                 }
               }
             ],
-            "memo": "80683597d118490b3308a1788299d1133b070f0e@23.88.68.53:26656",
+            "memo": "d72dbc0be50939047a291a38a591d44cd8240bfa@23.88.68.53:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -183,7 +183,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Au2f2qC0Z2bRfCSUVWLTblpnHYZfVTfLpPM5nSOML+eb"
+                  "key": "A1gAAvxEa6JW4ep/bBoZl3k30arbK8V4lm/WpnPJupqp"
                 },
                 "mode_info": {
                   "single": {
@@ -201,7 +201,7 @@
             }
           },
           "signatures": [
-            "kMm0me7S98PJpk1rTmeihRBC0JvbmM/LeP+Tfl5X2XBo9T2Gw7cOGaH+v2QnAAt9x0zFVbHmD4+/cSt3HfuDRAA="
+            "5Rsyt0XbNExcTfxX6cqg/gUIXHx6d8WGau2UDEx5fgEcD2jOt8hzTKzmwYJiz96++DYeFuPaRNBW4TdkbkVqOAE="
           ]
         }
       ]
@@ -298,8 +298,8 @@
     },
     "staking": {
       "params": {
-        "unbonding_time": "1814400s",
-        "max_validators": 100,
+        "unbonding_time": "259200s",
+        "max_validators": "300",
         "max_entries": 7,
         "historical_entries": 10000,
         "bond_denom": "aphoton"
