@@ -1,7 +1,3 @@
 # bashscripts
 
-To start genesis localtestnet on linux just run localtestnet.sh:
-
-`wget https://raw.githubusercontent.com/alpha-omega-labs/bashscripts/main/localtestnet.sh`
-
-`sh localtestnet.sh`
+A series of bash scripts that better never be seen by anyone who do computer programming. ¯\_(ツ)_/¯ 
