@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-11-19T21:20:28.692201601Z",
+  "genesis_time": "2021-11-27T03:31:59.158221109Z",
   "chain_id": "genesis_29-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "genesis1m8hl27cqhn9p3eszeqzd8znfqyj52fft3r7ykc",
+            "address": "genesis15e7cg620l3yq20gj3sh4vzj7mm7wyvqqwqhhyf",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,7 +53,7 @@
       },
       "balances": [
         {
-          "address": "genesis1m8hl27cqhn9p3eszeqzd8znfqyj52fft3r7ykc",
+          "address": "genesis15e7cg620l3yq20gj3sh4vzj7mm7wyvqqwqhhyf",
           "coins": [
             {
               "denom": "aphoton",
@@ -142,11 +142,11 @@
     },
     "feemarket": {
       "params": {
-        "no_base_fee": true,
+        "no_base_fee": false,
         "base_fee_change_denominator": 8,
         "elasticity_multiplier": 2,
         "initial_base_fee": "1000000000",
-        "enable_height": "9223372036854775807"
+        "enable_height": "0"
       },
       "base_fee": "0",
       "block_gas": "0"
@@ -171,19 +171,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "genesis1m8hl27cqhn9p3eszeqzd8znfqyj52fft3r7ykc",
-                "validator_address": "genesisvaloper1m8hl27cqhn9p3eszeqzd8znfqyj52fft4m5c37",
+                "delegator_address": "genesis15e7cg620l3yq20gj3sh4vzj7mm7wyvqqwqhhyf",
+                "validator_address": "genesisvaloper15e7cg620l3yq20gj3sh4vzj7mm7wyvqq2catr0",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "DP3+h8Fp0bG3Y1MErLVa6kucurDl4CiIEd7qIkYHEOg="
+                  "key": "8KawHUeW6x8zF0VD+tenGWzal75ukILz18ueMzOJsq8="
                 },
                 "value": {
                   "denom": "aphoton",
-                  "amount": "500000000000000000000000"
+                  "amount": "300000000000000000000000"
                 }
               }
             ],
-            "memo": "830743858b2cf3763acda1deec1679b914172c7a@65.21.34.226:26656",
+            "memo": "79cb752cb52710c222b445c972714d00901a3b88@135.181.5.216:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -193,7 +193,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A11je5OBZRSVs9i7CV6pBbyI8nfqaXb571PGq1mtODXk"
+                  "key": "Aoc2woQNg6+XSch0c1SZRX81FicROmSg+BZn76NuG2FJ"
                 },
                 "mode_info": {
                   "single": {
@@ -211,7 +211,7 @@
             }
           },
           "signatures": [
-            "WzsnQ5pZMpbdx3fjUPHkaCAu4H/fEZo6L2xqYzoMjf8Qt36M36EUXaXWBNhh4Tq79vZKdsbra4BdUeLf9h7QygE="
+            "KQUk/mGk0KhoOgwoid5BHcGQmwqKcpEjon00kW/0qHEYlIsZ3xK4of4RG4jRYXIaAdhia/xv9sC7zhX+fQkeMAE="
           ]
         }
       ]
@@ -225,7 +225,7 @@
         "min_deposit": [
           {
             "denom": "aphoton",
-            "amount": "10000000"
+            "amount": "300000000000000000000"
           }
         ],
         "max_deposit_period": "172800s"
@@ -276,20 +276,20 @@
       "params": {
         "enable_intrarelayer": true,
         "token_pair_voting_period": "172800s",
-        "enable_e_v_m_hook": true
+        "enable_evm_hook": true
       },
       "token_pairs": []
     },
     "mint": {
       "minter": {
-        "inflation": "0.130000000000000000",
+        "inflation": "0.150000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "aphoton",
-        "inflation_rate_change": "0.130000000000000000",
+        "inflation_rate_change": "0.150000000000000000",
         "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_min": "0.050000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
