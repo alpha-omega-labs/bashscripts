@@ -1,4 +1,4 @@
-Block#          Sender                                     L1
+Block#          Sender                                          L1
 13842642	0x804301a31895c7b08c83fb37bbc1382c77d5a9e1	1056.97
 	        0x3e240d46527039b5d7ffbb2acd988d73458e6b26	14000
 	        0xd3a27c0b19a5205b856adcff54725319e34328a7	18382.4
@@ -12,5 +12,5 @@ Block#          Sender                                     L1
 	        0x4d24e5a6d17b3484d5760ba9d293929f9c735d7a	9400.01
 	        0x2aac30e54eed3dd03ab20eb0bcfa6dd05fa7d425	95609.71
 13743354	0xa1117992e1632ce97d556ea0e5f5fbb462f7e757	5549
-SUM                                                     530807.92
+SUM                                                             530807.92
 
