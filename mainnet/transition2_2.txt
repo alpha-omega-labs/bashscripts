@@ -1,0 +1,18 @@
+Block#          Sender                                          L1
+13888631	0xa71877a3ee0a2df22187be358785b29b3d82b077	50000
+	        0x95ae5b62f24f186f67b2edad07cfa39284f8dd96	3017
+	        0x2aac30e54eed3dd03ab20eb0bcfa6dd05fa7d425	11834.84
+	        0xe761877a43f1b62cc1b419bc9ca3884690e0f50d	600
+	        0x18c739485b1ebc4045948599084c734332860c4a	2100
+	        0x14546188f7e14ba3272030b17301894f2c26ec33	200
+	        0xb98133e2e4533a5baa999de5cb85e3939a807b97	600
+	        0x7a6637f45704bdc21d5252eda8a289e865b513cf	1211.01
+	        0x0ea6c8d23d94118b9a9ebcfdb116f32a6fd327fe	2623.66
+13848229	0xccee88812bea9ba2820afa1737e25771988d57d1	5086
+SUM		                                                77272.51
+
+
+TX hash in genesisL1 mainnet: 
+
+
+Block height: 
