@@ -13,6 +13,7 @@ SUM		                                                77272.51
 
 
 TX hash in genesisL1 mainnet: 
+https://explore.genesisl1.org/tx/0x11ed39b9b4213b78687c6def9985f87b6eb928138a81fa9abda8ab4786f0d58d/internal-transactions
+https://explorer.genesisl1.org/tx/0x11ed39b9b4213b78687c6def9985f87b6eb928138a81fa9abda8ab4786f0d58d
 
-
-Block height: 
+Block height: 411657
