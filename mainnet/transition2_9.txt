@@ -1,0 +1,11 @@
+Block#          Sender                                          L1
+14205645	0x6766080141c81955a60b06b834c9027b23503555	1800
+14180588	0x3dabe09ebe166b6d8d6f8bf7c9b0fd98b109a79e	2103.85109853121
+		                                                3903.85109853121
+
+
+
+TX hash in genesisL1 mainnet: 
+https://explore.genesisl1.org/tx/0x59a6c303c112b5b5a076e3e213238b79cc576b05b428fbfcaf9a8543d4fc53d9/internal-transactions
+https://explorer.genesisl1.org/tx/0x59a6c303c112b5b5a076e3e213238b79cc576b05b428fbfcaf9a8543d4fc53d9
+Block height: 	1121446
