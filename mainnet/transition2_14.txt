@@ -1,0 +1,11 @@
+
+Block#          Sender                                          L1
+14437006  	0xb99b32e7d9b7b37bfbc0825338c2c3e6fe829c64	200
+
+SUM                               	                	200
+
+TX hash in genesisL1 mainnet: 
+https://explore.genesisl1.org/tx/0xfd402ce1f2ba2225490a1e7b24c7dfc32a9458cd82070b621c1a098a560944d0/internal-transactions
+https://explorer.genesisl1.org/tx/0xfd402ce1f2ba2225490a1e7b24c7dfc32a9458cd82070b621c1a098a560944d0
+
+Block height: 1734160 	
