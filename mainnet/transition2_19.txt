@@ -1,0 +1,13 @@
+Block#          Sender   
+14786096        0xd730bafafa2d3b96d73a3fa0eebd924a7f5e18a2	1314.08679156687
+                0xbec9f68fef05787e9193f31ed9403c8d5d8541fa	7345
+                0x28000f3e565d3f44cba20646d5895e6a6f164b14	28000
+                0x18b7b8e85e88d316fa00b51278bc139e8ce71a0c	6910.11098603049
+14743686        0x9f9454c8500e90031db56a6cd802427423697c0b	1635
+
+SUM:                                                      	45204.1977775974
+
+
+TX hash in genesisL1 mainnet: https://explorer.genesisl1.org/tx/0xe0e2fb4138966dd5263356c504944d199ee4acd182008a7cb25f912a8ae6284a
+
+Block height: 2439036
